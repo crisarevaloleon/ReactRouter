@@ -95,7 +95,8 @@ header nav a:hover{
 
 .Project-section h2{
   color: black;
-  padding: 85px;
+  padding-top: 400px;
+  padding-bottom: 400px;
   font-size: 40px;
   text-shadow: white -2px 2px;
   margin: 0 auto;
@@ -140,6 +141,33 @@ header nav a:hover{
   display: none;
 }
 
+/*Projects*/
+
+.Thanks{
+  text-align: center;
+  margin: 0 auto;
+  color: #956FF1;
+  margin-bottom: 100px;
+}
+
+.Categories ul{
+  justify-content: center;
+  margin: 50px auto 100px;
+  padding: 0;
+}
+
+.Categories li{
+  margin: 20px 10px;
+  padding: 15px 30px;
+  display: block;
+  text-align: center;
+}
+
+.P-button{
+  background-color: lightblue;
+  color: white!important;
+  }
+
 @media only screen and (min-width: 650px) {
 
 /* Menu Styles for Desktop */
@@ -160,6 +188,23 @@ header nav {
 
 .Project-section h2{
   font-size: 50px;
+}
+
+/*Projects*/
+.Project-section h2{
+  padding: 250px;
+}
+
+.Categories ul{
+  justify-content: center;
+  margin: 50px auto 0;
+  display: flex;
+}
+
+.Categories li{
+  margin: 0 50px;
+  padding: 15px 20px;
+  display: block;
 }
 
 /*Contact Styles*/
